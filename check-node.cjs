@@ -1,0 +1,1 @@
+if(Number(process.versions.node.split('.')[0])<24){console.error('\nRKS Traders requires Node.js 24 or newer.\nInstall Node.js 24 LTS from https://nodejs.org, reopen Terminal, then run npm start again.\nCurrent version: '+process.version+'\n');process.exit(1)}
